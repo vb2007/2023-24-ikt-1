@@ -8,13 +8,14 @@
 body{
     height: 100vh;
     background-color: rgb(0, 0, 0);
-    background-image: url('../media/bg.jpg');
+    background-image: url('../media/bg2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 /*header (nav)*/
 header{
+    /* background-color: rgba(84, 93, 105, 0.3); */
     position: relative;
     padding: 0 2rem;
 }
