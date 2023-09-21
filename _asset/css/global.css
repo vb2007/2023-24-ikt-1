@@ -13,21 +13,7 @@ body{
     background-position: center;
 }
 
-.nav_list_item{
-    list-style: none;
-}
-
-.nav_link{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-}
-
-a:hover{
-    color: rgb(253, 165, 3);
-}
-
-/*header*/
+/*header (nav)*/
 header{
     position: relative;
     padding: 0 2rem;
@@ -41,6 +27,20 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav_list_item{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.nav_link:hover{
+    color: rgb(253, 165, 3);
 }
 
 .navbar .logo .nav_link{
@@ -82,9 +82,49 @@ header{
     scale: 0.95;
 }
 
+/*dropdown menu*/
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+    height: 240px;
+}
+
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu #action_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /*responsive design*/
 @media(max-width: 992px) {
     .navbar .nav_list, .navbar #action_button{
         display: none;
+    }
+
+    .navbar .toggle_button{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
     }
 }
