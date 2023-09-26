@@ -1,6 +1,5 @@
 *egyes alcímek !-el fognak kezdődni az átláthatóság kedvéért
 
-
 ----------------
 
 !!!A kutyákról átalánosan
@@ -10,26 +9,8 @@ A kutyák (Canis lupus familiaris) a farkasokból háziasított állatfajok, ame
 **Szociális viselkedés, kommunikáció: **A kutyák rendkívül szociális lények, akik képesek szoros köteléket kialakítani az emberekkel és más állatokkal. Képesek érzékelni és reagálni az emberi érzelmekre, és gyakran tükrözik gazdájuk hangulatát. A kutyák komplex kommunikációs rendszerrel rendelkeznek, amely magában foglalja a hangadást, a testtartást és a gesztusokat. A vonyítás, ugatás és nyüszítés mind a kutyák kommunikációs eszközei.
 *Érzékelés: **A kutyák rendkívül fejlett szaglásukról híresek, amelyet gyakran használnak tájékozódásra és információgyűjtésre a környezetükről. A látásuk és hallásuk is erős, bár ezek az érzékek fajtától függően változhatnak.
 
-----------------
+-------
 
-!!A Németjuhász jellemzői
-*A Németjuhász az egyik kedvenc fajtám, mivel nagymamámnak is ilyen kutyája volt. Ebből fakadóan sok időt töltöttem el mellette fiatalabb koromban. Így úgy döntöttem, hogy ezt a fajt kiemelem.*
-
-A németjuhász (német juhászkutya) Németországból származó nagy termetű kutyafajta1. A németjuhász világszerte híres erényeiről, mint például a hűség, megbízhatóság, kitartás és bátorság2. Nagyon hajlandó dolgozni és intelligens, és így alkalmas szinte minden rábízott feladatra.
-
-!Általános jellemzők:
--Magasság: 55-66 cm
--Súly: 31-40 kg
--Élethossz: 13-15 év
--Temperamentum: Hűséges, védelmező, ragaszkodó
-
-!Érdekességek:
-A németjuhász kutya egy viszonylag új fajta, 1899-re nyúlnak vissza ismereteink vele kapcsolatban. A hírnevét egy bizonyos Captain Max von Stephaniznak köszönheti, aki a német lovasság kapitánya volt, aki azon volt hogy megalkosson egy kiváló terelő kutyát. Lényegében ő tenyésztette ki a fajt.
-
-A németjuhász több pozícióban is helytállt az idők folyamán, mint vakvezető kutya, bűnüldöző, illegális anyagokat (pl.: kábítószer) kereső kutya, katonai szolgálati kutya, beteg támogató és terelő kutya, stb. Tehát kimondhatjuk, hogy nem csak a terelésre specializálódott, de ez a fő *"szakterülete"*.
-
-
-----------------
 !A kutyák szükségletei
 
 --Fontos megérteni, hogy mint minden állítnak, így a kutyáknak is vannak alapvető szükségleteik. Ezek közül valamelyik nélkülözhető, míg valamelyik nélkülözhetetlen. Viszont egy felelős, jó gazda az összes alábbi pontot figyelembe veszi, megfogadja és betartja:
@@ -57,11 +38,27 @@ A németjuhász több pozícióban is helytállt az idők folyamán, mint vakvez
 
 4. Törvények betartása: A gazdának tisztában kell lennie azzal, hogy milyen törvények vonatkoznak a kutyatartásra az ő területükön, és betartani ezeket. Ez magában foglalhatja a pórázhasználatot, a kutyák számára kijelölt területeket, az oltási követelményeket és más helyi rendeleteket.
 
+
 ----------------
-!Törődés a kutyák egészségével
 
---Mint ahogy a fenti pontokban is említettem párszor, kimondottan fontos, hogy törődjük házikedvencünk egészségével. Az alábbi pontokat érdemes figyelembe venni.
+!!A Németjuhász jellemzői - személyes tapasztalatok
+*A Németjuhász az egyik kedvenc fajtám, mivel nagymamámnak is ilyen kutyája volt. Ebből fakadóan sok időt töltöttem el mellette fiatalabb koromban. Így úgy döntöttem, hogy ezt a fajt kiemelem.*
+
+A németjuhász (német juhászkutya) Németországból származó nagy termetű kutyafajta1. A németjuhász világszerte híres erényeiről, mint például a hűség, megbízhatóság, kitartás és bátorság2. Nagyon hajlandó dolgozni és intelligens, és így alkalmas szinte minden rábízott feladatra.
+
+!Általános jellemzők:
+-Magasság: 55-66 cm
+-Súly: 31-40 kg
+-Élethossz: 13-15 év
+-Temperamentum: Hűséges, védelmező, ragaszkodó
+
+!Érdekességek:
+A németjuhász kutya egy viszonylag új fajta, 1899-re nyúlnak vissza ismereteink vele kapcsolatban. A hírnevét egy bizonyos Captain Max von Stephaniznak köszönheti, aki a német lovasság kapitánya volt, aki azon volt hogy megalkosson egy kiváló terelő kutyát. Lényegében ő tenyésztette ki a fajt.
+
+A németjuhász több pozícióban is helytállt az idők folyamán, mint vakvezető kutya, bűnüldöző, illegális anyagokat (pl.: kábítószer) kereső kutya, katonai szolgálati kutya, beteg támogató és terelő kutya, stb. Tehát kimondhatjuk, hogy nem csak a terelésre specializálódott, de ez a fő *"szakterülete"*.
 
 
+----------------
+IKT1 - Vágvölgyi Balázs - 2023
 
 Források:
