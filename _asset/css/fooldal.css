@@ -1,0 +1,16 @@
+.main-box{
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.main-h2{
+    font-family: 'Poppins', 'sans-sherif';
+    color: rgb(253, 132, 3);
+}
+
+.main-text{
+    font-family: 'Raleway', 'sans-sherif';
+    color: rgb(255, 255, 255);
+}

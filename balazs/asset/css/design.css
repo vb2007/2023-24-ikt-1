@@ -1,0 +1,37 @@
+.main-box{
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: rgba(131, 131, 131, 0.718);
+    border-radius: 8px;
+}
+
+.content-line{
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+
+.main-title{
+    text-align: center;
+    color: rgb(253, 132, 3);
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-title{
+    text-align: left;
+    color: rgb(253, 132, 3);
+    font-size: 28px;
+    font-family: 'Poppins', 'sans-sherif';
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+
+li{
+    color: rgb(255, 209, 209);
+    font-family: 'Raleway', sans-serif;
+}
