@@ -1,6 +1,6 @@
 # Vízidisznó
 
-A vízidsznók (kapibarák) főleg az internet, de minendki által kedvelt állatok, és érthetően mindenki akar egyet házi állatnak. De mit érdemes tudni, ha Magyarországon tartani akarunk egyet?
+    A vízidsznók (kapibarák) főleg az internet, de minendki által kedvelt állatok, és érthetően mindenki akar egyet házi állatnak. De mit érdemes tudni, ha Magyarországon tartani akarunk egyet?
 
 ## Legalitás
 Egy ilyen ritka és egzotikus állatnál legtöbbnek az első kérdése, hogy szabad-e tartani? Magyar államprolgárként büszkén jelentem, hogy hazánkban **legális vizídisznók tartása háziállatként**. [nagyon hazafias magyar gif]

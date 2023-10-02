@@ -1,63 +1,87 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <!--Metaadatok-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="IKT1">
-    <!--3rd party import-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@500&family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@500&family=Raleway&display=swap" rel="stylesheet">
-    <!--
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    --> 
-    <!--Local import-->
-    <link rel="stylesheet" href="../_asset/css/global.css">
-    <!--Cím-->
-    <title></title>
-</head>
-<body>
-    <!--Fejléc-->
-    <header>
-        <nav class="navbar">
-            <div class="logo"><a class="nav_link" href="#">Állatok</a></div>
-            <ul class="nav_list">
+    <head>
+        <!--Metaadatok-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="IKT1">
+        <!--3rd party import-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@500&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@500&family=Raleway&display=swap" rel="stylesheet">
+        <!--
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        --> 
+        <!--Local import-->
+        <link rel="stylesheet" href="../_asset/css/global.css">
+        <!--Cím-->
+        <title></title>
+    </head>
+    <body>
+        <!--Fejléc-->
+        <header>
+            <nav class="navbar">
+                <div class="logo"><a class="nav_link" href="#">Állatok</a></div>
+                <ul class="nav_list">
+                    <li class="nav_list_item"><a href="../index.html" class="nav_link">Főoldal</a></li>
+                    <li class="nav_list_item"><a href="../balazs/kutya.html" class="nav_link">Kutya</a></li>
+                    <li class="nav_list_item"><a href="../donat/kapibara.html" class="nav_link">Vizidisznó</a></li>
+                    <li class="nav_list_item"><a href="../barnabas/teknos.html" class="nav_link">Teknős</a></li>
+                </ul>
+                <a href="#" class="nav_link" id="action_button">Rövid összefoglaló</a>
+                <div class="toggle_button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <hr>
+            <nav class="dropdown_menu">
                 <li class="nav_list_item"><a href="../index.html" class="nav_link">Főoldal</a></li>
                 <li class="nav_list_item"><a href="../balazs/kutya.html" class="nav_link">Kutya</a></li>
                 <li class="nav_list_item"><a href="../donat/kapibara.html" class="nav_link">Vizidisznó</a></li>
                 <li class="nav_list_item"><a href="../barnabas/teknos.html" class="nav_link">Teknős</a></li>
-            </ul>
-            <a href="#" class="nav_link" id="action_button">Rövid összefoglaló</a>
-            <div class="toggle_button">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
-        <hr>
-        <nav class="dropdown_menu">
-            <li class="nav_list_item"><a href="../index.html" class="nav_link">Főoldal</a></li>
-            <li class="nav_list_item"><a href="../balazs/kutya.html" class="nav_link">Kutya</a></li>
-            <li class="nav_list_item"><a href="../donat/kapibara.html" class="nav_link">Vizidisznó</a></li>
-            <li class="nav_list_item"><a href="../barnabas/teknos.html" class="nav_link">Teknős</a></li>
-            <a href="#" class="nav_link" id="action_button">Rövid összefoglaló</a>
-        </nav>
-    </header>
-    <!--Fő tartalom-->
-    <main>
+                <a href="#" class="nav_link" id="action_button">Rövid összefoglaló</a>
+            </nav>
+        </header>
+        <!--Fő tartalom-->
+        <main>
+            <h1>Kapibara</h1>
+            
+            <p>A vízidsznók (kapibarák) főleg az internet, de minendki által kedvelt állatok, és érthetően mindenki akar egyet házi állatnak. De mit érdemes tudni, ha Magyarországon tartani akarunk egyet?</p>
 
-    </main>
-    <!--Lábléc-->
-    <footer>
-        <p>IKT1 - 2023</p>
-    </footer>
-    <!--Scriptek-->
-    <!--(alul importálunk, hogy csak később legyen telespammelve a terminál hibákkal)-->
-    <script src="_asset/js/dropdown_control.js"></script>
-</body>
+            <h2>Legalitás</h2>
+            <p>Egy ilyen ritka és egzotikus állatnál legtöbbnek az első kérdése, hogy szabad-e tartani? Magyar államprolgárként büszkén jelentem, hogy hazánkban <b>legális vizídisznók tartása háziállatként.</b></p>
+            <img src="asset/img/magyar.gif" alt="Nagyon hazafias magyar gif">
+
+            <h2>De akarunk tartani? - Kapibara, mint háziállat</h2>
+            <p>Bár elsőre nem gondolnánk, de a a kapibarák - mint más rágcsálók (például tengerimalacok, hörcsögök) - kifejezetten "háziasak"; Nyugott és szociális állatok, szeretik az emberek (és más állatok) társaságát.</p>
+
+            <h2>Tartása és környezete</h2>
+            <p>Kissebb "házirágcsálókkal" (például hörcsög, tenegrimalac), a kapibarákat nem lehet egy fél m<sup>2</sup>-es ketrecben tartani szinte egész életükben, ennél sokkal nagyobb és speciálisabb környezetet igényelnek. Szükségük van egy tágas, kültéri füves környezetre napos és árnyékos részekkel egyaránt. Egy átlagos kertes hát kertje valószínűleg megfelelő, de természetesen mindig lehet javítani például több növényzettel, mászókákkal, stb. A fenti feltételek miatt panelházban egyértelmáen nem lehet tartani.</p>
+
+            <h2>Diéta, étrend</h2>
+            <p>A kapibarák étrendje viszonylag egyszerű és szokványos, mint minden rágcsáló, főleg füvet, szénát és friss zöldségeket esznek.</p>
+
+            <h2>Állatorvosi igény</h2>
+            <p>Mint minden egotikusabb (nem a hagyományos kutya, macska, esetleg hörcsög csoport része) állatnál, az állatorvosi igények jelentősen bonyolultabbak, mint mondjuk egy kutyánál, amit minden mezei állatorvos rutinból vizsgál meg. Mindenképpen nézzünk utánna megfelelő, kapibarákhoz értő állatorvosnak, és csak akkor szerezzünk be egy kókuszkutyust, ha tervezett és nem tervezett álatorvosi igényeit megelelően ki tudjuk elégíteni.</p>
+
+            <h2>Kapibara beszerzése</h2>
+            <p>Hogyha végül úgy döntönk, beszerzünk egy ilyen jószágot háziállatnak, fontos, hogy megfelelő helyről vegyök/fogadjuk örökbe a jövendő legjobb barátunkat. Mindig megbízható tenyésztőket keressünk, vagy jó helyről fogadjunk örökbe.</p>
+
+            <h2>Konklúzió</h2>
+            <p>A kapibarák jó háziállatok lehetnek azoknak, akik valami egzotikusabb állatra vágynak, nagyon specifikus igényeik vannak, ezért nagyon fontos, hogy pontosan utánnanézzünk, hogy milyen igényeik vannak, és megfelelően ki tudjuk-e elégíteni őket.</p>
+        </main>
+        <!--Lábléc-->
+        <footer>
+            <p>IKT1 - 2023</p>
+        </footer>
+        <!--Scriptek-->
+        <!--(alul importálunk, hogy csak később legyen telespammelve a terminál hibákkal)-->
+        <script src="_asset/js/dropdown_control.js"></script>
+    </body>
 </html>
