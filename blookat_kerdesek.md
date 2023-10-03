@@ -7,12 +7,18 @@ https://dashboard.blooket.com/edit?id=651bb57198528568975b9297
 - 0-Π kilót
 - attila
 
-<b>Milyen messze nyúlnak vissza az emberek ismeretei a Németjuhásszal kapcsolatban?</b>
+<b>Melyik évig nyúlnak vissza az emberek ismeretei a Németjuhásszal kapcsolatban?</b>
 - <u>1899-ig </u>
+- 1867-ig
+- 1932-ig
+- 1848-ig
 
 <b>Vannak-e a kutyáknak lelki szükségleteik?</b>
 - <u>Vannak</u>
+- részben vannak
+- nincsenek
+- semmilyen szükségletük sincs
 
 # Teknős
 
-# Vizidisznó
+# Vízidisznó
