@@ -18,7 +18,3 @@ https://dashboard.blooket.com/edit?id=651bb57198528568975b9297
 - Egészséges táplálkozás
 - Megfelelő egészségügyi ellátás
 - Szeretetteljes, biztonságos otthon
-
-# Teknős
-
-# Vízidisznó
