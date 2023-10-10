@@ -5,7 +5,10 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
     background-color: rgb(0, 0, 0);
     background-image: url('../media/bg2.jpg');
     background-size: cover;
@@ -113,6 +116,18 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+footer{
+    display: block;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 13px;
+    color: white;
 }
 
 /*responsive design*/
