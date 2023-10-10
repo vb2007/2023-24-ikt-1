@@ -3,8 +3,9 @@
     margin-right: 170px;
     margin-top: 25px;
     margin-bottom: 10px;
-    background-color: rgba(131, 131, 131, 0.718);
+    background-color: rgba(33, 20, 20, 0.941);
     border-radius: 8px;
+    padding: 3px;
 }
 
 .content-line{
@@ -21,20 +22,44 @@
 
 .secondary-title{
     text-align: left;
+    padding-left: 10px;
     color: rgb(253, 132, 3);
     font-size: 28px;
     font-family: 'Poppins', 'sans-sherif';
 }
 
-p{
+.article-image{
+    float: right;
+    margin: 0;
+}
+
+p, li, h3{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-indent: 6px;
     color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
 }
 
+p{
+    margin-bottom: 12px;
+}
+
 li{
+    margin-bottom: 6px;
+}
+
+ul{
+    margin-left: 24px;
+}
+
+/* li{
+    text-align: justify;
+    margin-bottom: 8px;
     color: rgb(255, 209, 209);
     font-family: 'Raleway', sans-serif;
-}
+} */
 
 /*Tablet design*/
 @media(max-width: 992px) {
