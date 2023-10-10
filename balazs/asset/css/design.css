@@ -3,9 +3,15 @@
     margin-right: 170px;
     margin-top: 25px;
     margin-bottom: 10px;
-    background-color: rgba(33, 20, 20, 0.941);
-    border-radius: 8px;
     padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(33, 20, 20, 0.941);
+}
+
+.main-box::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .content-line{
@@ -30,7 +36,7 @@
 
 .article-image{
     float: right;
-    margin: 0;
+    vertical-align: middle;
 }
 
 p, li, h3{
