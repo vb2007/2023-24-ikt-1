@@ -1,3 +1,56 @@
-p {
-    color: white;
+.main-box{
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: rgba(131, 131, 131, 0.718);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.content-line{
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+
+.main-title{
+    text-align: center;
+    color: rgb(253, 132, 3);
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-title{
+    text-align: left;
+    color: rgb(253, 132, 3);
+    font-size: 28px;
+    font-family: 'Poppins', 'sans-sherif';
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    text-indent: 20px;
+}
+
+li{
+    color: rgb(255, 209, 209);
+    font-family: 'Raleway', sans-serif;
+    padding-left: 3px;
+}
+
+/*Tablet design*/
+@media(max-width: 992px) {
+    .main-box{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}    
+
+/*Mobile design*/
+@media(max-width: 576px) {
+    .main-box{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
