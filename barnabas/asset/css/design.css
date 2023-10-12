@@ -1,11 +1,21 @@
+body {
+    background-image: url(../media/kekesviz.jpg);
+}
+
 .main-box{
     margin-left: 170px;
     margin-right: 170px;
     margin-top: 25px;
     margin-bottom: 10px;
-    background-color: rgba(131, 131, 131, 0.718);
+    padding: 12px;
     border-radius: 8px;
-    padding: 3px;
+    background-color: rgba(33, 20, 20, 0.941);
+}
+
+.main-box::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .content-line{
@@ -13,31 +23,55 @@
     margin-right: 50px;
 }
 
-.main-title{
+h1{
     text-align: center;
     color: rgb(253, 132, 3);
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
-.secondary-title{
+h2{
     text-align: left;
+    padding-left: 10px;
     color: rgb(253, 132, 3);
     font-size: 28px;
     font-family: 'Poppins', 'sans-sherif';
 }
 
-p{
+.article-image{
+    float: right;
+    vertical-align: middle;
+}
+
+p, li, h3{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-indent: 6px;
     color: rgb(255, 255, 255);
-    font-family: 'Raleway', sans-serif;
-    text-indent: 20px;
+    font-family: 'Raleway', 'sans-sherif';
+}
+
+p{
+    margin-bottom: 12px;
 }
 
 li{
+    margin-bottom: 6px;
+}
+
+ul{
+    margin-left: 24px;
+}
+
+/* li{
+    text-align: justify;
+    margin-bottom: 8px;
     color: rgb(255, 209, 209);
     font-family: 'Raleway', sans-serif;
-    padding-left: 3px;
-}
+} */
 
 /*Tablet design*/
 @media(max-width: 992px) {
@@ -53,4 +87,16 @@ li{
         margin-left: 25px;
         margin-right: 25px;
     }
+}
+
+.kep {
+    max-width: 500px;
+    border-radius: 8px;
+    float: right;
+}
+
+p {
+    font-size: larger;
+    vertical-align: middle;
+    line-height: 20px;
 }
