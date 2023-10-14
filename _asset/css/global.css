@@ -47,6 +47,28 @@ header{
     color: rgb(253, 165, 3);
 }
 
+.nav_list_item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #d97008fb;
+    transform-origin: bottom right;
+    transition: transform 0.7s ease-out;
+}
+
+.nav_list_item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav_list_item:active{
+    color: rgb(217, 45, 7);
+}
+
 .navbar .logo .nav_link{
     font-size: 1.5rem;
     font-weight: bold;
@@ -132,7 +154,7 @@ footer{
 
 /*responsive design*/
 @media(max-width: 992px) {
-    .navbar .nav_list, .navbar #action_button{
+    .navbar .nav_list, .navbar #action_button, .navbar-hr{
         display: none;
     }
 
@@ -149,5 +171,9 @@ footer{
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+
+    .navbar-hr{
+        display: none;
     }
 } 

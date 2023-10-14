@@ -35,8 +35,13 @@
 }
 
 .article-image{
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top:5px;
+    border-radius: 7px;
     float: right;
-    vertical-align: middle;
+    width: 25%;
+    height: auto;
 }
 
 p, li, h3{
@@ -82,4 +87,3 @@ ul{
         margin-right: 25px;
     }
 }
-
