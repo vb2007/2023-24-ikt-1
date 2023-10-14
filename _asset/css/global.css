@@ -13,6 +13,7 @@ body{
     background-image: url('../media/bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /*header (nav)*/
@@ -47,7 +48,7 @@ header{
     color: rgb(253, 165, 3);
 }
 
-.nav_list_item::after {
+.nav_link::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -60,7 +61,7 @@ header{
     transition: transform 0.7s ease-out;
 }
 
-.nav_list_item:hover::after {
+.nav_link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -88,6 +89,7 @@ header{
 
 #action_button{
     background-color: rgb(255, 163, 24);
+    text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 0.5rem 1rem;
     border: none;
@@ -152,9 +154,9 @@ footer{
     color: white;
 }
 
-/*responsive design*/
+/*Tablet design*/
 @media(max-width: 992px) {
-    .navbar .nav_list, .navbar #action_button, .navbar-hr{
+    .navbar .nav_list, .navbar #action_button{
         display: none;
     }
 
@@ -167,13 +169,10 @@ footer{
     }
 }
 
+/*Mobile design*/
 @media(max-width: 576px) {
     .dropdown_menu{
         left: 2rem;
         width: unset;
-    }
-
-    .navbar-hr{
-        display: none;
     }
 } 

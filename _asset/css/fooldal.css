@@ -1,11 +1,27 @@
+main{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 .main-box{
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 10px;
+    width: 350px;
+    height: 550px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(33, 20, 20, 0.886);
 }
 
 .main-h2{
+    text-align: center;
     font-family: 'Poppins', 'sans-sherif';
     color: rgb(253, 132, 3);
 }
@@ -13,4 +29,18 @@
 .main-text{
     font-family: 'Raleway', 'sans-sherif';
     color: rgb(255, 255, 255);
+}
+
+/*Tablet design*/
+@media(max-width: 992px) {
+    .container{
+        display: block;
+    }
+}    
+
+/*Mobile design*/
+@media(max-width: 576px) {
+    .container{
+        display: block;
+    }
 }
