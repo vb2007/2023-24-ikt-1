@@ -5,7 +5,7 @@ main{
 
 .container{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .main-box{
@@ -13,8 +13,11 @@ main{
     margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 10px;
-    width: 150px;
-    background-color: rgba(89, 76, 76, 0.879);
+    width: 350px;
+    height: 550px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgba(33, 20, 20, 0.886);
 }
 
 .main-h2{
