@@ -1,102 +1,122 @@
 body {
-    background-image: url('../media/kekesviz.jpg');
-}
-
-.main-box{
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    background-image: url("../media/kekesviz.jpg");
+  }
+  
+  article {
+    display: block;
+    margin: 25px auto 10px auto;
     padding: 12px;
     border-radius: 8px;
-    background-color: rgba(33, 20, 20, 0.941);
-}
-
-.main-box::after {
+    background-color: rgba(33, 20, 20, 0.75);
+    width: 1000px;
+  }
+  
+  article::after {
     content: "";
     display: table;
     clear: both;
-}
+  }
 
-.content-line{
+  article:hover {
+    background-color: rgb(33 20 20);
+  }
+  
+  .content-line{
     /* margin-left: 50px; */
     margin-right: 50px;
-}
-
-h1{
+  }
+  
+  h1{
     text-align: center;
     color: rgb(253, 132, 3);
     font-size: 55px;
     font-family: 'Poppins', sans-serif;
     margin-top: 35px;
     margin-bottom: 35px;
-}
-
-h2{
+  }
+  
+  h2{
     text-align: left;
     padding-left: 10px;
     color: rgb(253, 132, 3);
     font-size: 28px;
     font-family: 'Poppins', 'sans-sherif';
-}
-
-.article-image{
+  }
+  
+  article img {
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top:5px;
+    border-radius: 7px;
     float: right;
-    vertical-align: middle;
-}
-
-p, li, h3{
+    width: 250px;
+    height: auto;
+  }
+  
+  p, li, h3{
     text-align: justify;
     padding-left: 8px;
     padding-right: 8px;
     text-indent: 6px;
     color: rgb(255, 255, 255);
-    font-family: 'Raleway', 'sans-sherif';
-}
-
-p{
+    font-family: 'Raleway', sans-serif;
+    max-width: 65%;
+    display: inline-block;
+  }
+  
+  p{
     margin-bottom: 12px;
-}
-
-li{
+  }
+  
+  li{
     margin-bottom: 6px;
-}
-
-ul{
+  }
+  
+  ul{
     margin-left: 24px;
-}
+  }
+  
+  footer {
+    height: 48px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+  }
+  
 
-/* li{
+  
+  /* li{
     text-align: justify;
     margin-bottom: 8px;
     color: rgb(255, 209, 209);
     font-family: 'Raleway', sans-serif;
-} */
-
-/*Tablet design*/
-@media(max-width: 992px) {
-    .main-box{
+  } */
+  
+  /*Tablet design*/
+  @media(max-width: 992px) {
+    article {
         margin-left: 40px;
         margin-right: 40px;
     }
-}    
-
-/*Mobile design*/
-@media(max-width: 576px) {
-    .main-box{
+  }    
+  
+  /*Mobile design*/
+  @media(max-width: 576px) {
+    article {
         margin-left: 25px;
         margin-right: 25px;
     }
-}
-
-.kep {
+  }
+  
+  img {
     max-width: 500px;
     border-radius: 8px;
     float: right;
-}
-
-p {
+  }
+  
+  p {
     font-size: larger;
     vertical-align: middle;
     line-height: 20px;
-}
+  }
