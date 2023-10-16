@@ -1,3 +1,7 @@
+body{
+    background-image: url("../media/bg.jpg");
+}
+
 .main-box{
     margin-left: 170px;
     margin-right: 170px;
@@ -5,7 +9,11 @@
     margin-bottom: 10px;
     padding: 3px;
     border-radius: 8px;
-    background-color: rgba(33, 20, 20, 0.941);
+    background-color: rgba(33, 20, 20, 0.843);
+}
+
+.main-box:hover{
+    background-color: rgba(0, 0, 0, 0.953);
 }
 
 .main-box::after {

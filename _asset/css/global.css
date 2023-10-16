@@ -10,7 +10,6 @@ body{
     flex-direction: column;
     scroll-behavior: smooth;
     background-color: rgb(0, 0, 0);
-    /*background-image: url('../media/bg2.jpg');*/
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

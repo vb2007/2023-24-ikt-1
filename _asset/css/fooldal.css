@@ -1,3 +1,7 @@
+body{
+    background-image: url('../media/bg2.jpg');
+}
+
 main{
     margin-left: 75px;
     margin-right: 75px;
