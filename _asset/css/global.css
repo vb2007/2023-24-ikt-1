@@ -35,6 +35,7 @@ header{
 
 .nav_list_item{
     list-style: none;
+    font-weight: bolder;
 }
 
 .nav_link{
@@ -149,6 +150,8 @@ header{
 
 footer{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: auto;
     margin-bottom: 10px;
 }
