@@ -99,12 +99,13 @@ header{
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
+    transition: scale 0.2s ease, background-color 0.2s ease;
 }
 
 #action_button:hover{
     scale: 1.05;
     color: rgb(255, 255, 255);
+    background-color: rgb(153, 92, 0);
 }
 
 #action_button:active{
@@ -140,9 +141,12 @@ header{
 }
 
 .dropdown_menu #action_button{
-    width: 100%;
+    display: block;
+    margin: 18px auto 0 auto;
+    width: 90%;
     display: flex;
     justify-content: center;
+    transition: scale 0.2s ease;
 }
 
 footer{
