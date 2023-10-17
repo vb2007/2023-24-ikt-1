@@ -76,20 +76,18 @@ ul{
   margin-left: 24px;
 }
 
-
-
 /*Tablet design*/
 @media(max-width: 992px) {
   .main-box{
-      margin-left: 40px;
-      margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }    
 
 /*Mobile design*/
 @media(max-width: 576px) {
-    .main-box{
-        margin-left: 25px;
-        margin-right: 25px;
-    }
+  .main-box{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
