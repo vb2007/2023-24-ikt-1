@@ -76,13 +76,7 @@ ul{
   margin-left: 24px;
 }
 
-footer {
-  height: 48px;
-  margin: 10px auto;
-  text-align: center;
-  font-size: 13px;
-  color: white;
-}
+
 
 /*Tablet design*/
 @media(max-width: 992px) {

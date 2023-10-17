@@ -73,13 +73,6 @@ ul{
     margin-left: 24px;
 }
 
-/* li{
-    text-align: justify;
-    margin-bottom: 8px;
-    color: rgb(255, 209, 209);
-    font-family: 'Raleway', sans-serif;
-} */
-
 /*Tablet design*/
 @media(max-width: 992px) {
     .main-box{
