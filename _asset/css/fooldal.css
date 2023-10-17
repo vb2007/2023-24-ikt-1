@@ -62,7 +62,6 @@ main{
 
 .main-button:hover{
     scale: 1.05;
-    color: rgb(255, 255, 255);
 }
 
 .main-button:active{
