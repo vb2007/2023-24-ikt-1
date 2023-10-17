@@ -106,6 +106,7 @@ ul{
 
   #intro {
     margin: 0;
+    padding-right: 15px; /* Mivel az a csicska scrollbar belelóg a szövegbe, külön kell neki helyet csinálni */
   }
 }    
 
