@@ -57,7 +57,7 @@ main{
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    transition: scale 0.2 ease;
+    transition: scale 0.2s ease;
 }
 
 .main-button:hover{
