@@ -133,6 +133,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+    width: 100%;
 }
 
 .dropdown_menu #action_button{
