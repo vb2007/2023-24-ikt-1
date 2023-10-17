@@ -57,15 +57,18 @@ main{
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    transition: scale 0.2s ease;
+    transition: scale 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 .main-button:hover{
     scale: 1.05;
+    background-color: rgb(153, 92, 0);
 }
 
 .main-button:active{
     scale: 0.95;
+    background-color: white;
+    color: brown;
 }
 
 /*Tablet design*/
