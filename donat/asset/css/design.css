@@ -2,6 +2,12 @@ body {
   background-image: url("../img/bg.png");
 }
 
+.footer-text {
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+}
+
 article {
   display: block;
   margin: 25px auto 10px auto;
