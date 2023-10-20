@@ -20,6 +20,7 @@ header{
     /* background-color: rgba(84, 93, 105, 0.3); */
     position: relative;
     padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.61);
 }
 
 .navbar{
@@ -31,7 +32,6 @@ header{
     align-items: center;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(0, 0, 0, 0.61);
 }
 
 .nav_list_item{
