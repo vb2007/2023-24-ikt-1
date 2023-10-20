@@ -4,6 +4,10 @@ body{
     background-image: url('../media/bg.jpg');
 }
 
+header{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
 main{
     margin-left: 75px;
     margin-right: 75px;
