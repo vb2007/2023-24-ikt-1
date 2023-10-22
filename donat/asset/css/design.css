@@ -65,6 +65,7 @@ p, li, h3{
   font-family: 'Raleway', sans-serif;
   max-width: 65%;
   display: inline-block;
+  font-size: larger;
 }
 
 p{
