@@ -81,8 +81,9 @@ ul{
 }
 
 #footer_capy {
+  display: block;
+  margin: 20px auto;
   height: 48px;
-  margin: 10px;
 }
 
 #footer_capy:hover {
