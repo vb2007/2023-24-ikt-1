@@ -29,13 +29,12 @@ article::after {
   margin-right: 50px;
 }
 
-h1{
+h1 {
   text-align: center;
   color: rgb(253, 132, 3);
   font-size: 55px;
   font-family: 'Poppins', sans-serif;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  text-shadow: 3px 3px black;
 }
 
 h2{
